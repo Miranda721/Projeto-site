@@ -8,21 +8,26 @@
 body {
      background-color: rgb(81, 81, 245);
      color: white;
-     font: normal 18pt arial;
+     font: normal 12pt arial;
     
      h1 {
        color: rgb(201, 201, 40);
      }
 }
     </style>
-</head>
+</head>no
 <body>
     <h1>Olá Mundo</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti excepturi pariatur, perferendis reiciendis temporibus officiis facilis vero, architecto debitis molestiae fugit quod atque quaerat ea omnis magni quis recusandae! Aut.</p>
 </body>
 <script>
-    window.alert('Minha primeira mensagem')
-    window.confirm('Está gostando de js?')
-    window.prompt('Qual é o seu nome?')
-</script>
+var nome = window.prompt('Qual é o seu nome?') //vai perguntar o nome 
+window.alert('Seja bem vindo,' + nome)
+
+ var n1 = Number.parseInt (window.prompt('digite o n1'))
+ var n2 = Number.parseInt(window.prompt('digite o n2'))
+ var s = n1 + n2 
+ window.alert('A soma dos valores é,' + s)
+ document.write('Seu nome é ' + nome)
+</script> 
 </html>
